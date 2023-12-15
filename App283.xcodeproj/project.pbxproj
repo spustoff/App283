@@ -11,6 +11,34 @@
 		F97A947C2B2C5BFA0058A489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A947B2B2C5BFA0058A489 /* ContentView.swift */; };
 		F97A947E2B2C5BFB0058A489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97A947D2B2C5BFB0058A489 /* Assets.xcassets */; };
 		F97A94812B2C5BFB0058A489 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F97A94802B2C5BFB0058A489 /* Preview Assets.xcassets */; };
+		F97A948A2B2C5D5C0058A489 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94892B2C5D5C0058A489 /* TabBar.swift */; };
+		F97A948C2B2C5D640058A489 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A948B2B2C5D640058A489 /* LoadingView.swift */; };
+		F97A948E2B2C5D680058A489 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F97A948D2B2C5D680058A489 /* Launch Screen.storyboard */; };
+		F97A94922B2C5DCB0058A489 /* Reviewers_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94912B2C5DCB0058A489 /* Reviewers_1.swift */; };
+		F97A94942B2C5DCF0058A489 /* Reviewers_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94932B2C5DCF0058A489 /* Reviewers_2.swift */; };
+		F97A94962B2C5DDA0058A489 /* Users_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94952B2C5DDA0058A489 /* Users_1.swift */; };
+		F97A94982B2C5DDE0058A489 /* Users_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94972B2C5DDE0058A489 /* Users_2.swift */; };
+		F97A949A2B2C5DE30058A489 /* Users_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94992B2C5DE30058A489 /* Users_3.swift */; };
+		F97A949D2B2C60F70058A489 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A949C2B2C60F70058A489 /* MenuView.swift */; };
+		F97A949F2B2C61000058A489 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A949E2B2C61000058A489 /* MenuViewModel.swift */; };
+		F97A94A32B2C610F0058A489 /* ConvertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94A22B2C610F0058A489 /* ConvertDate.swift */; };
+		F97A94A72B2C61200058A489 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94A62B2C61200058A489 /* CoreDataStack.swift */; };
+		F97A94AA2B2C61270058A489 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F97A94A82B2C61270058A489 /* CoreDataModel.xcdatamodeld */; };
+		F97A94AC2B2C63A30058A489 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94AB2B2C63A30058A489 /* Array.swift */; };
+		F97A94AF2B2C65330058A489 /* MenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94AE2B2C65330058A489 /* MenuDetail.swift */; };
+		F97A94B22B2C676F0058A489 /* MenuFavorited.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94B12B2C676F0058A489 /* MenuFavorited.swift */; };
+		F97A94B52B2C683C0058A489 /* MilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94B42B2C683C0058A489 /* MilesView.swift */; };
+		F97A94B82B2C691A0058A489 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94B72B2C691A0058A489 /* AddView.swift */; };
+		F97A94BB2B2C6CE00058A489 /* TravelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94BA2B2C6CE00058A489 /* TravelsView.swift */; };
+		F97A94BE2B2C6E1D0058A489 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A94BD2B2C6E1D0058A489 /* SettingsView.swift */; };
+		F97A94C02B2C715A0058A489 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F97A94BF2B2C715A0058A489 /* GoogleService-Info.plist */; };
+		F97A94C32B2C71630058A489 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F97A94C22B2C71630058A489 /* ApphudSDK */; };
+		F97A94C62B2C716A0058A489 /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = F97A94C52B2C716A0058A489 /* Amplitude */; };
+		F97A94C92B2C71710058A489 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F97A94C82B2C71710058A489 /* Alamofire */; };
+		F97A94CE2B2C717D0058A489 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F97A94CD2B2C717D0058A489 /* OneSignalFramework */; };
+		F97A95052B2C719F0058A489 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F97A95042B2C719F0058A489 /* FirebaseRemoteConfigSwift */; };
+		F97A950B2B2C720D0058A489 /* s23.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A950A2B2C720D0058A489 /* s23.swift */; };
+		F97A950D2B2C72100058A489 /* w23.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97A950C2B2C72100058A489 /* w23.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +47,31 @@
 		F97A947B2B2C5BFA0058A489 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F97A947D2B2C5BFB0058A489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F97A94802B2C5BFB0058A489 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F97A94892B2C5D5C0058A489 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F97A948B2B2C5D640058A489 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		F97A948D2B2C5D680058A489 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F97A94912B2C5DCB0058A489 /* Reviewers_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_1.swift; sourceTree = "<group>"; };
+		F97A94932B2C5DCF0058A489 /* Reviewers_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviewers_2.swift; sourceTree = "<group>"; };
+		F97A94952B2C5DDA0058A489 /* Users_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_1.swift; sourceTree = "<group>"; };
+		F97A94972B2C5DDE0058A489 /* Users_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_2.swift; sourceTree = "<group>"; };
+		F97A94992B2C5DE30058A489 /* Users_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users_3.swift; sourceTree = "<group>"; };
+		F97A949C2B2C60F70058A489 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F97A949E2B2C61000058A489 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		F97A94A22B2C610F0058A489 /* ConvertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDate.swift; sourceTree = "<group>"; };
+		F97A94A62B2C61200058A489 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F97A94A92B2C61270058A489 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		F97A94AB2B2C63A30058A489 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		F97A94AE2B2C65330058A489 /* MenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetail.swift; sourceTree = "<group>"; };
+		F97A94B12B2C676F0058A489 /* MenuFavorited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFavorited.swift; sourceTree = "<group>"; };
+		F97A94B42B2C683C0058A489 /* MilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilesView.swift; sourceTree = "<group>"; };
+		F97A94B72B2C691A0058A489 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		F97A94BA2B2C6CE00058A489 /* TravelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelsView.swift; sourceTree = "<group>"; };
+		F97A94BD2B2C6E1D0058A489 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F97A94BF2B2C715A0058A489 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F97A950A2B2C720D0058A489 /* s23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s23.swift; sourceTree = "<group>"; };
+		F97A950C2B2C72100058A489 /* w23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w23.swift; sourceTree = "<group>"; };
+		F97A950E2B2C73EB0058A489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F97A950F2B2C73EE0058A489 /* App283.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App283.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +79,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97A94C92B2C71710058A489 /* Alamofire in Frameworks */,
+				F97A95052B2C719F0058A489 /* FirebaseRemoteConfigSwift in Frameworks */,
+				F97A94C62B2C716A0058A489 /* Amplitude in Frameworks */,
+				F97A94C32B2C71630058A489 /* ApphudSDK in Frameworks */,
+				F97A94CE2B2C717D0058A489 /* OneSignalFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +109,14 @@
 		F97A94782B2C5BFA0058A489 /* App283 */ = {
 			isa = PBXGroup;
 			children = (
+				F97A950F2B2C73EE0058A489 /* App283.entitlements */,
+				F97A950E2B2C73EB0058A489 /* Info.plist */,
+				F97A94BF2B2C715A0058A489 /* GoogleService-Info.plist */,
 				F97A94792B2C5BFA0058A489 /* App283App.swift */,
 				F97A947B2B2C5BFA0058A489 /* ContentView.swift */,
+				F97A94872B2C5D540058A489 /* Project */,
 				F97A947D2B2C5BFB0058A489 /* Assets.xcassets */,
+				F97A948D2B2C5D680058A489 /* Launch Screen.storyboard */,
 				F97A947F2B2C5BFB0058A489 /* Preview Content */,
 			);
 			path = App283;
@@ -65,6 +128,130 @@
 				F97A94802B2C5BFB0058A489 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F97A94872B2C5D540058A489 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94A02B2C61030058A489 /* Exts */,
+				F97A94892B2C5D5C0058A489 /* TabBar.swift */,
+				F97A948B2B2C5D640058A489 /* LoadingView.swift */,
+				F97A94BC2B2C6E160058A489 /* Settings */,
+				F97A94B92B2C6CD80058A489 /* Travels */,
+				F97A94B62B2C69140058A489 /* Add */,
+				F97A94B32B2C68360058A489 /* Miles */,
+				F97A949B2B2C60EE0058A489 /* Menu */,
+				F97A94882B2C5D570058A489 /* Splash */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		F97A94882B2C5D570058A489 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94902B2C5DBD0058A489 /* Reviewers */,
+				F97A948F2B2C5DA80058A489 /* Users */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F97A948F2B2C5DA80058A489 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94952B2C5DDA0058A489 /* Users_1.swift */,
+				F97A94972B2C5DDE0058A489 /* Users_2.swift */,
+				F97A94992B2C5DE30058A489 /* Users_3.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		F97A94902B2C5DBD0058A489 /* Reviewers */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94912B2C5DCB0058A489 /* Reviewers_1.swift */,
+				F97A94932B2C5DCF0058A489 /* Reviewers_2.swift */,
+			);
+			path = Reviewers;
+			sourceTree = "<group>";
+		};
+		F97A949B2B2C60EE0058A489 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94B02B2C67690058A489 /* MenuFavorited */,
+				F97A94AD2B2C652E0058A489 /* MenuDetail */,
+				F97A949C2B2C60F70058A489 /* MenuView.swift */,
+				F97A949E2B2C61000058A489 /* MenuViewModel.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F97A94A02B2C61030058A489 /* Exts */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94A12B2C61070058A489 /* CoreData */,
+				F97A94A22B2C610F0058A489 /* ConvertDate.swift */,
+				F97A94AB2B2C63A30058A489 /* Array.swift */,
+				F97A950A2B2C720D0058A489 /* s23.swift */,
+				F97A950C2B2C72100058A489 /* w23.swift */,
+			);
+			path = Exts;
+			sourceTree = "<group>";
+		};
+		F97A94A12B2C61070058A489 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94A62B2C61200058A489 /* CoreDataStack.swift */,
+				F97A94A82B2C61270058A489 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F97A94AD2B2C652E0058A489 /* MenuDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94AE2B2C65330058A489 /* MenuDetail.swift */,
+			);
+			path = MenuDetail;
+			sourceTree = "<group>";
+		};
+		F97A94B02B2C67690058A489 /* MenuFavorited */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94B12B2C676F0058A489 /* MenuFavorited.swift */,
+			);
+			path = MenuFavorited;
+			sourceTree = "<group>";
+		};
+		F97A94B32B2C68360058A489 /* Miles */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94B42B2C683C0058A489 /* MilesView.swift */,
+			);
+			path = Miles;
+			sourceTree = "<group>";
+		};
+		F97A94B62B2C69140058A489 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94B72B2C691A0058A489 /* AddView.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		F97A94B92B2C6CD80058A489 /* Travels */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94BA2B2C6CE00058A489 /* TravelsView.swift */,
+			);
+			path = Travels;
+			sourceTree = "<group>";
+		};
+		F97A94BC2B2C6E160058A489 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F97A94BD2B2C6E1D0058A489 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +270,13 @@
 			dependencies = (
 			);
 			name = App283;
+			packageProductDependencies = (
+				F97A94C22B2C71630058A489 /* ApphudSDK */,
+				F97A94C52B2C716A0058A489 /* Amplitude */,
+				F97A94C82B2C71710058A489 /* Alamofire */,
+				F97A94CD2B2C717D0058A489 /* OneSignalFramework */,
+				F97A95042B2C719F0058A489 /* FirebaseRemoteConfigSwift */,
+			);
 			productName = App283;
 			productReference = F97A94762B2C5BFA0058A489 /* App283.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +305,13 @@
 				Base,
 			);
 			mainGroup = F97A946D2B2C5BFA0058A489;
+			packageReferences = (
+				F97A94C12B2C71630058A489 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				F97A94C42B2C716A0058A489 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+				F97A94C72B2C71710058A489 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F97A94CA2B2C717D0058A489 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				F97A94D32B2C719F0058A489 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F97A94772B2C5BFA0058A489 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97A948E2B2C5D680058A489 /* Launch Screen.storyboard in Resources */,
+				F97A94C02B2C715A0058A489 /* GoogleService-Info.plist in Resources */,
 				F97A94812B2C5BFB0058A489 /* Preview Assets.xcassets in Resources */,
 				F97A947E2B2C5BFB0058A489 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +340,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F97A94BE2B2C6E1D0058A489 /* SettingsView.swift in Sources */,
+				F97A949A2B2C5DE30058A489 /* Users_3.swift in Sources */,
+				F97A948A2B2C5D5C0058A489 /* TabBar.swift in Sources */,
+				F97A94922B2C5DCB0058A489 /* Reviewers_1.swift in Sources */,
+				F97A94AF2B2C65330058A489 /* MenuDetail.swift in Sources */,
+				F97A94A32B2C610F0058A489 /* ConvertDate.swift in Sources */,
+				F97A948C2B2C5D640058A489 /* LoadingView.swift in Sources */,
+				F97A94982B2C5DDE0058A489 /* Users_2.swift in Sources */,
+				F97A94AC2B2C63A30058A489 /* Array.swift in Sources */,
+				F97A94A72B2C61200058A489 /* CoreDataStack.swift in Sources */,
+				F97A949F2B2C61000058A489 /* MenuViewModel.swift in Sources */,
+				F97A94B82B2C691A0058A489 /* AddView.swift in Sources */,
+				F97A949D2B2C60F70058A489 /* MenuView.swift in Sources */,
+				F97A94962B2C5DDA0058A489 /* Users_1.swift in Sources */,
 				F97A947C2B2C5BFA0058A489 /* ContentView.swift in Sources */,
 				F97A947A2B2C5BFA0058A489 /* App283App.swift in Sources */,
+				F97A950B2B2C720D0058A489 /* s23.swift in Sources */,
+				F97A94AA2B2C61270058A489 /* CoreDataModel.xcdatamodeld in Sources */,
+				F97A94BB2B2C6CE00058A489 /* TravelsView.swift in Sources */,
+				F97A94942B2C5DCF0058A489 /* Reviewers_2.swift in Sources */,
+				F97A94B22B2C676F0058A489 /* MenuFavorited.swift in Sources */,
+				F97A950D2B2C72100058A489 /* w23.swift in Sources */,
+				F97A94B52B2C683C0058A489 /* MilesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +410,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -197,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -248,13 +472,14 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -269,16 +494,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App283/App283.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App283/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App283/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flight and Miles";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +515,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xz.App283;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,16 +529,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App283/App283.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"App283/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App283/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Flight and Miles";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +550,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xz.App283;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -342,6 +581,90 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F97A94C12B2C71630058A489 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		F97A94C42B2C716A0058A489 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		F97A94C72B2C71710058A489 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		F97A94CA2B2C717D0058A489 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.5;
+			};
+		};
+		F97A94D32B2C719F0058A489 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F97A94C22B2C71630058A489 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F97A94C12B2C71630058A489 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		F97A94C52B2C716A0058A489 /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F97A94C42B2C716A0058A489 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+		F97A94C82B2C71710058A489 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F97A94C72B2C71710058A489 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F97A94CD2B2C717D0058A489 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F97A94CA2B2C717D0058A489 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		F97A95042B2C719F0058A489 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F97A94D32B2C719F0058A489 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F97A94A82B2C61270058A489 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F97A94A92B2C61270058A489 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = F97A94A92B2C61270058A489 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F97A946E2B2C5BFA0058A489 /* Project object */;
 }
