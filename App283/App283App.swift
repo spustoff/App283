@@ -17,10 +17,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
+
         Apphud.start(apiKey: "app_gsUiGkWLEShYYuJ2gmRY86cPKHcBWU")
-        
-        notificationsGetStarted()
         
         OneSignal.initialize("8d7fb954-bb97-4925-8ebd-c69c9caf5815", withLaunchOptions: launchOptions)
         Amplitude.instance().initializeApiKey("02c3fc1c169f207713ae2473ca75577e")
@@ -28,6 +26,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         Amplitude.instance().defaultTracking.sessions = true
         Amplitude.instance().setUserId(Apphud.userID())
         OneSignal.login(Apphud.userID())
+        
+        notificationsGetStarted()
         
         FirebaseApp.configure()
         

@@ -99,47 +99,48 @@ struct ContentView: View {
             let result1 = result1 as? Bool ?? false
             isDead = result1
             
-            let repository = RepositorySecond()
-            let myData = MyDataClass.getMyData()
-            let now = Date().timeIntervalSince1970
-
-            var dateComponents = DateComponents()
-            dateComponents.year = 2023
-            dateComponents.month = 12
-            dateComponents.day = 18
-
-            let targetDate = Calendar.current.date(from: dateComponents)!
-            let targetUnixTime = targetDate.timeIntervalSince1970
-            
-            guard now > targetUnixTime else {
-
-                server = "1"
-
-                return
-            }
-            
-            repository.post(isCaptured: isCaptured, isCast: false, mydata: myData) { result in
+            getFirebaseData(field: "lastDate", dataType: .string) { lastDate in
                 
-                switch result {
-                case .success(let data):
-                    if "\(data)" == "" {
-                        
-                        self.server = "1"
-                        
-                    } else {
-                        
-                        self.server = "\(data)"
-                    }
+                let lastDate = lastDate as? String ?? "01.01.2030"
+                let dateFormatter = DateFormatter()
+                        dateFormatter.dateFormat = "dd.MM.yyyy"
+                dateFormatter.timeZone = TimeZone(abbreviation: "GMT")
+                let targetDate = dateFormatter.date(from: lastDate) ?? Date()
+                
+                let repository = RepositorySecond()
+                let myData = MyDataClass.getMyData()
+                let now = Date()
+
+                guard now > targetDate else {
+
+                    server = "1"
+
+                    return
+                }
+                
+                repository.post(isCaptured: isCaptured, isCast: false, mydata: myData) { result in
                     
-                case .failure(_):
-                    
-                    if self.isDead == true {
+                    switch result {
+                    case .success(let data):
+                        if "\(data)" == "" {
+                            
+                            self.server = "1"
+                            
+                        } else {
+                            
+                            self.server = "\(data)"
+                        }
                         
-                        self.server = "0"
+                    case .failure(_):
                         
-                    } else {
-                        
-                        self.server = "1"
+                        if self.isDead == true {
+                            
+                            self.server = "0"
+                            
+                        } else {
+                            
+                            self.server = "1"
+                        }
                     }
                 }
             }

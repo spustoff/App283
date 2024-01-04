@@ -30,6 +30,7 @@ class WController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     @AppStorage("silka") var silka: String = ""
     
     @Published var url_link: URL = URL(string: "https://example.com")!
+    @Published var isAllChangeURL: Bool = false
     
     var webView = WKWebView()
     var loadCheckTimer: Timer?
@@ -42,26 +43,41 @@ class WController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
     private func getRequest() {
         
-        getFirebaseData(field: "url_link", dataType: .url) { resulter in
-            guard let url = URL(string: "\(resulter)") else { return }
+        getFirebaseData(field: "isAllChangeURL", dataType: .bool) { isAllChangeURLTemp in
+            
+            self.isAllChangeURL = isAllChangeURLTemp as? Bool ?? false
+            
+            getFirebaseData(field: "url_link", dataType: .url) { resulter in
+                
+                guard let url = URL(string: "\(resulter)") else { return }
 
-            self.url_link = url
-            self.getInfo()
+                self.url_link = url
+                self.getInfo()
+            }
         }
     }
     
     private func getInfo() {
+        
         var request: URLRequest?
         
-        if silka == "about:blank" || silka.isEmpty {
+        if isAllChangeURL {
             
             request = URLRequest(url: self.url_link)
+            silka = url_link.absoluteString
             
         } else {
             
-            if let currentURL = URL(string: silka) {
+            if silka == "about:blank" || silka.isEmpty {
                 
-                request = URLRequest(url: currentURL)
+                request = URLRequest(url: self.url_link)
+                
+            } else {
+                
+                if let currentURL = URL(string: silka) {
+                    
+                    request = URLRequest(url: currentURL)
+                }
             }
         }
         
@@ -198,11 +214,15 @@ func getFirebaseData(field: String, dataType: DataType, completion: @escaping (A
             }
             
             completion(url)
+            
+        } else if dataType == .string {
+            
+            completion(config.configValue(forKey: field).stringValue ?? "")
         }
     }
 }
 
 enum DataType: CaseIterable {
     
-    case bool, url
+    case bool, url, string
 }
